@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {}
 
   onLoadServers() {
-    //complex calculation
+    // complex calculation
     this.router.navigate(['/servers']);
   }
 }
